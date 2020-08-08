@@ -128,12 +128,21 @@ opacity: 0.8;
 
 /* Testimonial */
 
+h2{
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	position: relative;
+	margin: 30px 0 60px;
+
+  font-weight: 500;
+  /* text-transform: uppercase; */
+
+}
+
 .testimonialh2 {
 	color: #333;
 	text-align: center;
-	text-transform: uppercase;
 	font-family: "Roboto", sans-serif;
-	font-weight: bold;
 	position: relative;
 	margin: 30px 0 60px;
 }
@@ -234,6 +243,7 @@ opacity: 0.8;
 }
 
 
+
 .social-link {
     color: #fff;
     background: #af6e4e;
@@ -274,4 +284,17 @@ opacity: 0.8;
 
 .social-pinterest:hover, .social-pinterest:focus {
     background: #8c0615;
+}
+
+
+.underline::after{
+content:'';
+height: 3px;
+width:15%;
+background:#85A653;
+position:absolute;
+left:calc(52.5% - 10%);
+top:calc(120%);
+bottom:0;
+
 }
