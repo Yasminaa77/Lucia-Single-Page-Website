@@ -1,0 +1,48 @@
+/* Contact and footer */
+
+#contact{
+
+  background:#222;
+}
+
+.social-link {
+    color: #fff;
+    background: #af6e4e;
+    display: block;
+    transition: all 0.3s;
+}
+
+.social-link:hover, .social-link:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.social-link .icon {
+    width: 4rem;
+    text-align: center;
+    margin-right: 1.5rem;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.social-facebook {
+    background: #3b5998;
+}
+
+.social-facebook:hover, .social-facebook:focus {
+    background: #2d4373;
+}
+
+.social-instagram {
+    background: #e4405f;
+}
+
+.social-instagram:hover, .social-instagram:focus {
+    background: #d31e40;
+}
+.social-pinterest {
+    background: #bd081c;
+}
+
+.social-pinterest:hover, .social-pinterest:focus {
+    background: #8c0615;
+}
