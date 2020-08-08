@@ -1,9 +1,17 @@
-<<<<<<< HEAD
 /*!
  * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/templates/scrolling-nav)
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+
+.logo{
+  width:30px;
+  height:auto;
+  margin:0 3px 3px 3px;
+  border-radius: 50%;
+
+}
+
 
  .container{
    margin-bottom:0 0 ;
