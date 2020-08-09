@@ -20,7 +20,7 @@
  header {
   position: relative;
   background-color: black;
-  height: 75vh;
+  height: 100vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -53,7 +53,7 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.2;
   z-index: 1;
 }
 
@@ -88,7 +88,7 @@ section {
     left: 0;
     background: #000;
     display: block;
-    opacity: 0.55;
+    opacity: 0.45;
 }
 
 .overlay-content {
