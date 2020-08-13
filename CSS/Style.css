@@ -58,6 +58,9 @@ header .overlay {
 }
 
 @media (pointer: coarse) and (hover: none) {
+  header {
+   background: url('../media/headerbg.jpg') black no-repeat center center scroll;
+ }
 
   header video {
     display: none;
